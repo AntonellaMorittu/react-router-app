@@ -1,0 +1,13 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+
+  
+#  from = "/*": This line defines the source or "from" path that triggers the redirection. 
+#  any incoming request to any URL path on the site will match this rule.
+
+# to = "/index.html": This line specifies the target or "to" URL where the incoming requests will be redirected to.
+# In this example, all incoming requests are redirected to the "/index.html" page. 
+# This is a common approach used in single-page applications (SPAs) where the server redirects all requests to the main HTML file
